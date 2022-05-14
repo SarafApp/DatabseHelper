@@ -1,11 +1,11 @@
 {
-  "name": "saraf/s-orm",
+  "name": "saraf/database-helper",
   "description": "A simple orm to get data from mysql in async way",
   "type": "library",
-  "license": "MIT",
+  "license": "proprietary",
   "autoload": {
     "psr-4": {
-      "Saraf\\SOrm\\": "src/"
+      "Saraf\\DatabaseHelper\\": "src/"
     }
   },
   "authors": [
@@ -19,7 +19,7 @@
     }
   ],
   "require": {
-    "php": ">=7.4.0",
+    "php": ">=8.0.0",
     "react/mysql": "^0.5.6"
   },
   "minimum-stability": "stable"
