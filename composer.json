@@ -1,0 +1,24 @@
+{
+  "name": "saraf/s-orm",
+  "description": "A simple orm to get data from mysql in async way",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Saraf\\SOrm\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Hasan Parasteh",
+      "email": "hasanparasteh@gmail.com"
+    },
+    {
+      "name": "Amir Parsa Dehfuli",
+      "email": "parsa@saraf.app"
+    }
+  ],
+  "require": {
+    "react/mysql": "^0.5.6"
+  }
+}
